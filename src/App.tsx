@@ -83,7 +83,7 @@ function App(): React.JSX.Element {
           isCross ? styles.playerX : styles.playerO
           ]}>
           <Text style={styles.gameTurnTxt}>
-            Player {isCross? 'X' : 'O'}'s Turn
+            {isCross? 'Cross' : 'Cercle'}'s Turn
           </Text>
         </View>
       )}
